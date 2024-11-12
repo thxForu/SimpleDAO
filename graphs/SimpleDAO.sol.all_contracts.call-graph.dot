@@ -1,0 +1,20 @@
+strict digraph {
+subgraph cluster_318_SimpleDAO {
+label = "SimpleDAO"
+"318_executeProposal" [label="executeProposal"]
+"318_withdraw" [label="withdraw"]
+"318_createProposal" [label="createProposal"]
+"318_receive" [label="receive"]
+"318_donate" [label="donate"]
+"318_vote" [label="vote"]
+"318_receive" -> "318_donate"
+}subgraph cluster_solidity {
+label = "[Solidity]"
+"require(bool)" 
+"require(bool,string)" 
+"318_withdraw" -> "require(bool)"
+"318_vote" -> "require(bool,string)"
+"318_executeProposal" -> "require(bool,string)"
+"318_withdraw" -> "require(bool,string)"
+}
+}

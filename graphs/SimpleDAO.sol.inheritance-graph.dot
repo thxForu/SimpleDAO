@@ -1,0 +1,4 @@
+digraph "" {
+c318_SimpleDAO[shape="box"label=< <TABLE border="0"><TR><TD align="center"><B>SimpleDAO</B></TD></TR><TR><TD align="left"><I>Public Functions:</I></TD></TR><TR><TD align="left">    donate()</TD></TR><TR><TD align="left">    withdraw(uint256)</TD></TR><TR><TD align="left">    createProposal(address,uint256,string)</TD></TR><TR><TD align="left">    vote(uint256,bool)</TD></TR><TR><TD align="left">    executeProposal(uint256)</TD></TR><TR><TD align="left">    receive()</TD></TR><TR><TD align="left"><I>Public Variables:</I></TD></TR><TR><TD align="left">    balances</TD></TR><TR><TD align="left">    proposals</TD></TR><TR><TD align="left">    proposalCount</TD></TR></TABLE> >];
+
+}
