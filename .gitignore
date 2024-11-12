@@ -2,3 +2,7 @@
 /.deps
 /contracts/artifacts
 /contracts/interfaces/artifacts
+/src/contracts/artifacts
+/src/contracts/interfaces/artifacts
+/out
+/test/artifacts
